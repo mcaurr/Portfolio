@@ -11,10 +11,13 @@ export function About() {
     "SQL",
     "Git",
     "Linux",
-  ]
+  ];
 
   return (
-    <section id="about" className="py-32 px-6 md:px-12 lg:px-24 border-t border-border">
+    <section
+      id="about"
+      className="py-32 px-6 md:px-12 lg:px-24 border-t border-border"
+    >
       <div className="max-w-6xl mx-auto">
         <p className="text-muted-foreground text-sm tracking-widest uppercase mb-4">
           About
@@ -24,13 +27,23 @@ export function About() {
         </h2>
         <div className="space-y-4 text-muted-foreground leading-relaxed max-w-4xl">
           <ul className="list-disc pl-6 space-y-2">
-            <li>BSc Computer Science (Minor in Data Science) student at the University of British Columbia — transferred from Langara College</li>
-            <li>passionate about software development and building useful things</li>
+            <li>
+              BSc Computer Science (Minor in Data Science) student at the
+              University of British Columbia — transferred from Langara College
+            </li>
+            <li>
+              passionate about software development and building useful things
+            </li>
             <li>looking for internship and co-op opportunities</li>
           </ul>
+          <div className="inline-flex items-center gap-2 mt-4 px-4 py-2 rounded-full border border-amber-400/40 bg-amber-400/10 text-amber-500 text-sm font-medium">
+            🏆 UBC Outstanding International Student Scholar
+          </div>
         </div>
         <div className="mt-12">
-          <p className="text-sm text-muted-foreground mb-4">Technologies I work with</p>
+          <p className="text-sm text-muted-foreground mb-4">
+            Technologies I work with
+          </p>
           <div className="flex flex-wrap gap-2">
             {skills.map((skill) => (
               <span
@@ -44,5 +57,5 @@ export function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -42,7 +42,7 @@ export function Hero() {
               LinkedIn
             </a>
             <a
-              href="mailto:manpreet@example.com"
+              href="mailto:mcaurr@gmail.com"
               className="text-muted-foreground hover:text-foreground transition-colors text-sm"
             >
               Email

@@ -4,7 +4,7 @@ const experiences = [
     role: "BSc Computer Science – Minor in Data Science  |  GPA: 3.7 / 4.0",
     period: "May 2025 – Present",
     highlights: [
-      "UBC Outstanding International Student Scholar.",
+      "🏆 UBC Outstanding International Student Scholar — awarded for academic excellence as an international student.",
       "Relevant coursework: Operating Systems, Algorithms, Database Systems, Data Analytics, Statistics, Software Engineering, Discrete Structures in Computing, Machine Architecture, Human-Computer Interaction.",
     ],
   },

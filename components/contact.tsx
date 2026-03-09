@@ -20,7 +20,7 @@ export function Contact() {
         </p>
         <div className="flex flex-col sm:flex-row gap-6">
           <a
-            href="mailto:manpreet@example.com"
+            href="mailto:mcaurr@gmail.com"
             className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background text-sm font-medium hover:bg-foreground/90 transition-colors"
           >
             Get in touch
