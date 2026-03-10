@@ -73,10 +73,10 @@ export function Projects() {
     >
       <div className="max-w-6xl mx-auto">
         <div className="mb-16">
-          <p className="text-muted-foreground text-sm tracking-widest uppercase mb-4">
+          <p className="text-indigo-400 text-xs tracking-[0.3em] uppercase mb-4 font-medium">
             Projects
           </p>
-          <h2 className="text-2xl md:text-3xl font-light tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-light tracking-tight">
             Selected work
           </h2>
         </div>
@@ -95,7 +95,7 @@ export function Projects() {
                 className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/2"
               >
                 <Card
-                  className={`h-full bg-gradient-to-br ${project.gradient} border-border/50 hover:border-border transition-all duration-300 hover:shadow-lg hover:shadow-primary/5 group`}
+                  className={`h-full bg-gradient-to-br ${project.gradient} border-border/50 hover:border-indigo-500/30 transition-all duration-300 hover:shadow-xl hover:shadow-indigo-500/10 group`}
                 >
                   <CardHeader className="pb-4">
                     <div className="flex items-start justify-between gap-2">
@@ -142,10 +142,10 @@ export function Projects() {
                             href={project.video}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-sm font-medium text-muted-foreground hover:text-foreground"
+                            className="text-xs font-medium text-indigo-400 hover:text-indigo-300 border border-indigo-500/30 bg-indigo-500/10 px-2.5 py-1 rounded-full transition-colors"
                             aria-label={`Watch ${project.title} demo video`}
                           >
-                            Watch demo
+                            ▶ Watch demo
                           </a>
                         )}
                       </div>
