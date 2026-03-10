@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 
 export function Hero() {
   return (
@@ -29,34 +29,6 @@ export function Hero() {
             , minoring in Data Science. I build full-stack apps and turn ideas
             into working software.
           </p>
-
-          <div className="flex flex-wrap items-center gap-3 mt-10">
-            <a
-              href="mailto:mcaurr@gmail.com"
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-medium rounded-lg transition-colors shadow-lg shadow-indigo-500/20"
-            >
-              <Mail className="w-4 h-4" />
-              Get in touch
-            </a>
-            <a
-              href="https://github.com/mcaurr"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 border border-border text-sm text-muted-foreground hover:text-foreground hover:border-indigo-500/50 rounded-lg transition-colors"
-            >
-              <Github className="w-4 h-4" />
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/in/mcaurr/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 border border-border text-sm text-muted-foreground hover:text-foreground hover:border-indigo-500/50 rounded-lg transition-colors"
-            >
-              <Linkedin className="w-4 h-4" />
-              LinkedIn
-            </a>
-          </div>
         </div>
       </div>
 
