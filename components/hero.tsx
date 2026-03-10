@@ -11,10 +11,6 @@ export function Hero() {
 
       <div className="max-w-6xl mx-auto w-full">
         <div className="max-w-3xl">
-          <span className="inline-flex items-center gap-2 text-xs font-medium tracking-widest uppercase text-indigo-400 mb-6 border border-indigo-500/30 bg-indigo-500/10 px-3 py-1.5 rounded-full">
-            <span className="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-pulse" />
-            Open to internships &amp; co-ops
-          </span>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tight text-balance leading-[1.1]">
             Manpreet{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-violet-400 to-purple-400">
